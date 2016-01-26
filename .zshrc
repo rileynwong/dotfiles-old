@@ -5,7 +5,7 @@ export ZSH=/Users/nancywong/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="wezm"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/Users/nancywong/.rvm/gems/ruby-1.9.3-p551/bin:/Users/nancywong/.rvm/gems/ruby-1.9.3-p551@global/bin:/Users/nancywong/.rvm/rubies/ruby-1.9.3-p551/bin:/usr/local/heroku/bin:/usr/local/Cellar/git/2.7.0/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/nancywong/.rvm/bin"
+export PATH="$PATH:/Users/nancywong/.rvm/gems/ruby-1.9.3-p551/bin:/Users/nancywong/.rvm/gems/ruby-1.9.3-p551@global/bin:/Users/nancywong/.rvm/rubies/ruby-1.9.3-p551/bin:/usr/local/heroku/bin:/usr/local/Cellar/git/2.7.0/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/nancywong/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
