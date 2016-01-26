@@ -5,14 +5,20 @@ alias ssh120='ssh cis120@croniac.seas.upenn.edu'
 # shortcuts
 alias 391="cd ~/Documents/cis391/"
 alias 191="cd ~/Documents/cis191/"
+alias pi="ssh pi@193.168.2.10"
+
+alias hi=hicat
 
 alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
+alias bash="vim ~/.bash_profile"
+alias h4i="cd ~/hack4impact"
+
+# projects
+alias cac="cd ~/hack4impact/cac/clean-air-council; source venv/bin/activate"
 alias ip="cd ~/Documents/internet-party/internet-party/repo"
 alias pg="cd ~/Documents/poetry-generator/poetry-generator"
-alias bash="vim ~/.bash_shortcuts"
-alias h4i="cd ~/hack4impact"
-alias cac="cd ~/hack4impact/cac/clean-air-council; source venv/bin/activate"
+alias sg="cd ~/projects/story-grapher"
 
 # git shortcuts
 alias gs="git status"
@@ -22,8 +28,13 @@ alias ga="git add"
 alias gc="git commit -m"
 
 # encouraging messages
-alias sigh="echo it\'s okay nancy you can do it :^)"
+alias sigh="echo it\'s okay nancy you can do it :\^\)"
 
+# bash commands
+mkcd () {
+    mkdir "$1"
+    cd "$1"
+}
 
 export PATH=/usr/local/bin:$PATH
 export PATH="$(brew --prefix git)/bin:$PATH"
