@@ -1,5 +1,12 @@
 # Most recently edited files in Vim (version 3.0)
+/Users/nancywong/.oh-my-zsh/themes/gallois.zsh-theme
 /Users/nancywong/.zshrc
+/Users/nancywong/Documents/poetry-generator/poetry-generator/static/js/main.js
+/Users/nancywong/.vim/autoload/pathogen.vim
+/Users/nancywong/.vim_runtime/vimrcs/extended.vim
+/Users/nancywong/.vim_runtime/vimrcs/basic.vim
+/Users/nancywong/Documents/poetry-generator/poetry-generator/app.py
+/Users/nancywong/Documents/poetry-generator/poetry-generator/Procfile
 /Users/nancywong/.git/COMMIT_EDITMSG
 /Users/nancywong/.oh-my-zsh/themes/wezm.zsh-theme
 /Users/nancywong/.oh-my-zsh/themes/wezm+.zsh-theme
@@ -23,7 +30,6 @@
 /Users/nancywong/hack4impact/cac/clean-air-council/app/reports/forms.py
 /Users/nancywong/hack4impact/cac/clean-air-council/app/templates/macros/nav_macros.html
 /Users/nancywong/hack4impact/cac/clean-air-council/requirements/common.txt
-/Users/nancywong/.vim_runtime/vimrcs/basic.vim
 /Users/nancywong/.vimrc
 /Users/nancywong/test.rb
 /Users/nancywong/hack4impact/cac/clean-air-council/app/templates/macros/form_macros.html
@@ -37,15 +43,12 @@
 /Users/nancywong/hack4impact/cac/clean-air-council/Makefile
 /Users/nancywong/hack4impact/cac/clean-air-council/temp
 /Users/nancywong/Documents/poetry-generator/poetry-generator/templates/index.html
-/Users/nancywong/Documents/poetry-generator/poetry-generator/app.py
 /Users/nancywong/Documents/poetry-generator/poetry-generator/.gitignore
 /Users/nancywong/Documents/poetry-generator/poetry-generator/.git/MERGE_MSG
 /Users/nancywong/Documents/poetry-generator/poetry-generator/.git/COMMIT_EDITMSG
-/Users/nancywong/Documents/poetry-generator/poetry-generator/Procfile
 /Users/nancywong/Documents/poetry-generator/poetry-generator/requirements.txt
 /Users/nancywong/Documents/poetry-generator/poetry-generator/.git/rebase-merge/git-rebase-todo
 /Users/nancywong/Documents/poetry-generator/poetry-generator/ling.py
-/Users/nancywong/Documents/poetry-generator/poetry-generator/static/js/main.js
 /Users/nancywong/Documents/poetry-generator/poetry-generator/static/css/main.css
 /Users/nancywong/Documents/poetry-generator/poetry-generator/README.md
 /Users/nancywong/hack4impact/cac/clean-air-council/app/main/forms.py

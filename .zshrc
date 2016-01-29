@@ -5,7 +5,7 @@ export ZSH=/Users/nancywong/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="wezm"
+ZSH_THEME="gallois"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -101,6 +101,7 @@ alias hi=hicat
 
 alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
+alias zsh="vim ~/.zshrc"
 alias bash="vim ~/.bash_profile"
 alias h4i="cd ~/hack4impact"
 
@@ -116,6 +117,7 @@ alias gb="git branch"
 alias gd="git diff"
 alias ga="git add"
 alias gc="git commit -m"
+alias gl="git log --oneline"
 alias gph="git push heroku master"
 
 
