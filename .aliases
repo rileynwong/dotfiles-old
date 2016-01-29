@@ -9,6 +9,9 @@ alias eniac='ssh wongn@eniac.seas.upenn.edu'
 alias ssh120='ssh cis120@croniac.seas.upenn.edu'
 
 # shortcuts
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 alias 391="cd ~/Documents/cis391/"
 alias 191="cd ~/Documents/cis191/"
 alias pi="ssh pi@193.168.2.10"
