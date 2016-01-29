@@ -116,6 +116,8 @@ alias gb="git branch"
 alias gd="git diff"
 alias ga="git add"
 alias gc="git commit -m"
+alias gph="git push heroku master"
+
 
 # encouraging messages
 alias sigh="echo it\'s okay nancy you can do it :\^\)"

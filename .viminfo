@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/export path
+~MSle0~/alias
 
 # Last Substitute Search Pattern:
 ~MSle0&load_tokens_bigram
@@ -19,8 +19,8 @@ $
 # Command Line History (newest to oldest):
 :q
 :noh
-:w
 :x
+:w
 :q!
 :tabmove a
 :e!
@@ -157,6 +157,8 @@ $
 :sp ../app/models/idling_incident.py
 
 # Search String History (newest to oldest):
+?/git push hero
+?/alias
 ?/export path
 ?/wezm
 ?/wez
@@ -364,25 +366,25 @@ $
 	r detected while processing function commandt#CommandTShowFileFinder:
 	line    2:
 	LoadError: cannot load such file -- ostruct
-"1	LINE	0
-	pick 441bc81 Initial commit
+""1	LINE	0
+	alias gsa="git stash apply"
 "2	LINE	0
-	
+	alias gstash="git stash"
 "3	LINE	0
+	alias gstash="git stash"
+"4	LINE	0
+	
+"5	LINE	0
+	pick 441bc81 Initial commit
+"6	LINE	0
+	
+"7	LINE	0
 	alias ip="cd ~/Documents/internet-party/internet-party/repo"
 	alias pg="cd ~/Documents/poetry-generator/poetry-generator"
-"4	LINE	0
-	alias cac="cd ~/hack4impact/cac/clean-air-council; source venv/bin/activate"
-"5	LINE	0
-	# projects
-"6	CHAR	0
-	llllata-sort-
-"7	LINE	0
-	<<<<<<< HEAD
 "8	LINE	0
-	>>>>>>> master
+	alias cac="cd ~/hack4impact/cac/clean-air-council; source venv/bin/activate"
 "9	LINE	0
-	=======
+	# projects
 "a	CHAR	0
 	A,j0i€kb
 "i	CHAR	0
@@ -400,24 +402,30 @@ $
 	
 "y	LINE	0
 	^\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}$
-""-	CHAR	0
-	âš¡
+"-	CHAR	0
+	y
 
 # File marks:
-'0  56  18  ~/.zshrc
-'1  6  55  ~/.oh-my-zsh/themes/wezm.zsh-theme
-'2  2  18  ~/.oh-my-zsh/themes/wezm.zsh-theme
-'3  1  0  ~/NERD_tree_1
-'4  8  18  ~/.zshrc
-'5  1  0  ~/.git/MERGE_MSG
-'6  1  0  ~/buffer.md
-'7  1  0  ~/.bashrc
-'8  21  24  ~/.bash_profile
-'9  2  0  ~/projects/story-grapher/story-grapher/.git/rebase-merge/git-rebase-todo
+'0  1  0  ~/.zshrc
+'1  119  15  ~/.zshrc
+'2  151  0  ~/.zshrc
+'3  1  0  ~/.git/COMMIT_EDITMSG
+'4  56  18  ~/.zshrc
+'5  6  55  ~/.oh-my-zsh/themes/wezm.zsh-theme
+'6  2  18  ~/.oh-my-zsh/themes/wezm.zsh-theme
+'7  1  0  ~/NERD_tree_1
+'8  8  18  ~/.zshrc
+'9  1  0  ~/.git/MERGE_MSG
 
 # Jumplist (newest first):
--'  56  18  ~/.zshrc
 -'  1  0  ~/.zshrc
+-'  119  15  ~/.zshrc
+-'  121  0  ~/.zshrc
+-'  99  0  ~/.zshrc
+-'  100  0  ~/.zshrc
+-'  151  0  ~/.zshrc
+-'  1  0  ~/.git/COMMIT_EDITMSG
+-'  56  18  ~/.zshrc
 -'  6  55  ~/.oh-my-zsh/themes/wezm.zsh-theme
 -'  139  2  ~/NERD_tree_1
 -'  1  0  ~/NERD_tree_1
@@ -430,7 +438,7 @@ $
 -'  8  18  ~/.zshrc
 -'  1  0  ~/.git/MERGE_MSG
 -'  1  0  ~/buffer.md
--'  151  0  ~/.zshrc
+-'  153  0  ~/.zshrc
 -'  1  0  ~/.bashrc
 -'  21  24  ~/.bash_profile
 -'  1  0  ~/.bash_profile
@@ -508,21 +516,25 @@ $
 -'  121  33  ~/hack4impact/cac/clean-air-council/app/reports/views.py
 -'  17  0  ~/hack4impact/cac/clean-air-council/app/reports/forms.py
 -'  61  16  ~/hack4impact/cac/clean-air-council/app/reports/forms.py
--'  36  0  ~/hack4impact/cac/clean-air-council/app/utils.py
--'  35  36  ~/hack4impact/cac/clean-air-council/app/utils.py
--'  28  12  ~/hack4impact/cac/clean-air-council/requirements/common.txt
--'  6  55  ~/.oh-my-zsh/themes/wezm.zsh-theme
--'  139  2  ~/NERD_tree_1
--'  1  0  ~/NERD_tree_1
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	"	56	18
-	^	56	19
-	.	56	18
+	"	1	0
+	^	119	33
+	.	119	32
 	+	8	0
 	+	56	18
+	+	99	13
+	+	99	0
+	+	121	0
+	+	120	0
+	+	120	0
+	+	120	0
+	+	119	32
+
+> ~/.git/COMMIT_EDITMSG
+	"	1	0
 
 > ~/NERD_tree_1
 	"	139	2
@@ -2488,13 +2500,3 @@ $
 	+	8	0
 	+	6	0
 	+	27	0
-
-> ~/Documents/191-project/poetry-generator/Makefile
-	"	4	13
-	^	4	14
-	.	4	13
-	+	1	0
-	+	2	0
-	+	6	0
-	+	5	0
-	+	4	13

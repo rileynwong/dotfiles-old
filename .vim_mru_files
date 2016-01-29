@@ -1,5 +1,6 @@
 # Most recently edited files in Vim (version 3.0)
 /Users/nancywong/.zshrc
+/Users/nancywong/.git/COMMIT_EDITMSG
 /Users/nancywong/.oh-my-zsh/themes/wezm.zsh-theme
 /Users/nancywong/.oh-my-zsh/themes/wezm+.zsh-theme
 /Users/nancywong/.git/MERGE_MSG
@@ -98,7 +99,6 @@
 /Users/nancywong/hack4impact/cac/clean-air-council/tests/test_agency_model.py
 /Users/nancywong/Documents/poetry-generator/poetry-generator/unwords.txt
 /Users/nancywong/Documents/poetry-generator/poetry-generator/unwords.py
-/Users/nancywong/.git/COMMIT_EDITMSG
 /Users/nancywong/.gitconfig
 /Users/nancywong/hack4impact/cac/clean-air-council/app/account/views.py
 /Users/nancywong/hack4impact/cac/clean-air-council/app/models/idling_incident.py
