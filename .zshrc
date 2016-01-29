@@ -82,74 +82,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export EDITOR=vim
-export VISUAL=vim
-alias crontab=“envVIM_CRONTAB=true crontab”
+source ~/.aliases
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-# ssh
-alias eniac='ssh wongn@eniac.seas.upenn.edu'
-alias ssh120='ssh cis120@croniac.seas.upenn.edu'
-
-# shortcuts
-alias 391="cd ~/Documents/cis391/"
-alias 191="cd ~/Documents/cis191/"
-alias pi="ssh pi@193.168.2.10"
-
-alias hi=hicat
-
-alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
-
-alias zsh="vim ~/.zshrc"
-alias bash="vim ~/.bash_profile"
-alias h4i="cd ~/hack4impact"
-
-# projects
-alias cac="cd ~/hack4impact/cac/clean-air-council; source venv/bin/activate"
-alias ip="cd ~/Documents/internet-party/internet-party/repo"
-alias pg="cd ~/Documents/poetry-generator/poetry-generator"
-alias sg="cd ~/projects/story-grapher"
-
-# git shortcuts
-alias gs="git status"
-alias gb="git branch"
-alias gd="git diff"
-alias ga="git add"
-alias gc="git commit -m"
-alias gl="git log --oneline"
-alias gph="git push heroku master"
-
-
-# encouraging messages
-alias sigh="echo it\'s okay nancy you can do it :\^\)"
-
-# bash commands
-mkcd () {
-    mkdir "$1"
-    cd "$1"
-}
-
-export PATH=/usr/local/bin:$PATH
-export PATH="$(brew --prefix git)/bin:$PATH"
-
-# Usage:
-#   > sync master gh-pages
-# Equivalent to:
-#   > git push origin master
-#   > git checkout gh-pages
-#   > git rebase master
-#   > git push origin gh-pages
-#   > git checkout master
- 
-function sync {
-  git push origin $1
-  git checkout $2
-  git rebase $1
-  git push origin $2
-  git checkout $1
-}
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
