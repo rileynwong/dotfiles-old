@@ -8,6 +8,7 @@ Important stuff kept in [.aliases](.aliases)
 - [don't let Git use Less for shell output](http://superuser.com/questions/820943/typing-git-log-oneline-in-oh-my-zsh-pipes-to-less) (set by oh-my-zsh)
 - [CommandT](https://github.com/wincent/command-t) (check vim ruby version and set before installing!)
 - [Vimrc](https://github.com/amix/vimrc)
+- [hicat](https://github.com/rstacruz/hicat)
 
 
 #### Custom additions:
