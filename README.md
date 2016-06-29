@@ -7,14 +7,24 @@ Important stuff kept in [.aliases](.aliases)
 - [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
  - [don't let Git use Less for shell output](http://superuser.com/questions/820943/typing-git-log-oneline-in-oh-my-zsh-pipes-to-less)
+ - Append `.bashrc` and `.bash_profile` to `.zshrc` 
+  - `cat .bashrc .bash_profile >> .zshrc`
 - [hicat](https://github.com/rstacruz/hicat)
+ - `alias cat=hicat`
  
  
 ###### vim
 - [Vimrc](https://github.com/amix/vimrc)
 - [CommandT](https://github.com/wincent/command-t)
  - check vim ruby version and set before installing!
+- If vim is missing clipboard support (-clipboard):
+ - `brew install macvim --with-override-system-vim`
+ - `alias vim='mvim -v'
 
+
+###### other computer applications
+- [CopyClip](https://itunes.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12) - Clipboard History Manager
+- [ShiftIt](https://github.com/fikovnik/ShiftIt) - Keyboard shortcuts for window sizes
 
 
 #### Custom additions:
