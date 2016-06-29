@@ -39,7 +39,7 @@ alias ga="git add"
 alias gc="git commit -m"
 alias gl="git log --oneline"
 alias gph="git push heroku master"
-alias gphm="git push orign master && git push heroku master"
+alias gphm="git push origin master && git push heroku master"
 
 # heroku
 alias hl="heroku logs"
