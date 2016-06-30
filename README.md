@@ -30,7 +30,7 @@ let g:ctrlp_show_hidden = 1
 nnoremap <Leader>t :CtrlP ~
 nnoremap <Leader>r :CtrlP
 ```
- - 
+
 - If vim is missing clipboard support (-clipboard):
  - `brew install macvim --with-override-system-vim`
  - `alias vim='mvim -v'`
