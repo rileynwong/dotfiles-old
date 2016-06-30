@@ -32,6 +32,9 @@ Important stuff kept in [.aliases](.aliases)
 
 #### Custom additions:
 ###### `.vimrc`:
+Comment out spacebar mapping in `basic.vim`:
+
+
 ```
 " Custom
 set relativenumber
@@ -58,6 +61,12 @@ map <space> ,
 
 " Select all text in buffer
 map <Leader>a ggVG
+```
+
+In `extended.vim`, replace:
+```
+map <leader>eb :e! ~/.vim_runtime/vimrcs/basic.vim<cr>
+map <leader>ee :e! ~/.vim_runtime/vimrcs/extended.vim<cr>
 ```
 
 ###### `.aliases`
