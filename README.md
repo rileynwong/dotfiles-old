@@ -19,17 +19,6 @@ Important stuff kept in [.aliases](.aliases)
 - [CommandT](https://github.com/wincent/command-t)
  - check vim ruby version and set before installing!
  - OR use [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) because it's less of a pain in the ass
- - in `.zshrc`:
-```
-" Ctrl P
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-let g:ctrlp_show_hidden = 1
-
-nnoremap <Leader>t :CtrlP ~
-nnoremap <Leader>r :CtrlP
-```
 
 - If vim is missing clipboard support (if `vim --version` shows `-clipboard`):
  - `brew install macvim --with-override-system-vim`
@@ -44,15 +33,31 @@ nnoremap <Leader>r :CtrlP
 #### Custom additions:
 ###### `.vimrc`:
 ```
-" Additional custom
+" Custom
 set relativenumber
 set clipboard=unnamed
+set mouse=a
 
 syntax on
 filetype plugin indent on
 
 " 80 character margin
 set cc=80
+
+" Ctrl P
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_show_hidden = 1
+
+nnoremap <Leader>t :CtrlP ~
+nnoremap <Leader>r :CtrlP
+
+" Map spacebar to leader key
+map <space> ,
+
+" Select all text in buffer
+map <Leader>a ggVG
 ```
 
 ###### `.aliases`
