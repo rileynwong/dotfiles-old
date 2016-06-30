@@ -11,8 +11,9 @@ Important stuff kept in [.aliases](.aliases)
   - `cat .bashrc .bash_profile >> .zshrc`
 - [hicat](https://github.com/rstacruz/hicat)
  - `alias cat=hicat`
+- [Ag](https://github.com/ggreer/the_silver_searcher) - search file contents (can run in vim)
  
- 
+
 ###### vim
 - [Vimrc](https://github.com/amix/vimrc)
 - [CommandT](https://github.com/wincent/command-t)
