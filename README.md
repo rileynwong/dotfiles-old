@@ -31,7 +31,7 @@ nnoremap <Leader>t :CtrlP ~
 nnoremap <Leader>r :CtrlP
 ```
 
-- If vim is missing clipboard support (-clipboard):
+- If vim is missing clipboard support (if `vim --version` shows `-clipboard`):
  - `brew install macvim --with-override-system-vim`
  - `alias vim='mvim -v'`
 
