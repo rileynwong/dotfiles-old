@@ -18,7 +18,7 @@ Important stuff kept in [.aliases](.aliases)
 - [CommandT](https://github.com/wincent/command-t)
  - check vim ruby version and set before installing!
  - OR use [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) because it's less of a pain in the ass
- - in .zshrc:
+ - in `.zshrc`:
 ```
 " Ctrl P
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
