@@ -41,6 +41,7 @@ Comment out spacebar mapping in `basic.vim`:
 set relativenumber
 set clipboard=unnamed
 set mouse=a
+set splitright
 
 syntax on
 filetype plugin indent on
