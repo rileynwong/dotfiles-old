@@ -28,6 +28,7 @@ Important stuff kept in [.aliases](.aliases)
 ###### other computer applications
 - [CopyClip](https://itunes.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12) - Clipboard History Manager
 - [ShiftIt](https://github.com/fikovnik/ShiftIt) - Keyboard shortcuts for window sizes
+- [Alfred](https://www.alfredapp.com/)
 
 
 #### Custom additions:
