@@ -61,6 +61,11 @@ map <space> ,
 
 " Select all text in buffer
 map <Leader>a ggVG
+
+" Set iTerm tab title to filename when vim is open
+autocmd BufEnter * let &titlestring = expand("%:t")
+set title
+
 ```
 
 In `extended.vim`, replace:
