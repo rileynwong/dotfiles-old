@@ -35,6 +35,7 @@ alias sg="cd ~/projects/story-grapher"
 alias gs="git status"
 alias gb="git branch"
 alias gd="git diff"
+alias gdc='git diff --cached'
 alias ga="git add"
 alias gc="git commit -m"
 alias gl="git log -n 10 --oneline"
