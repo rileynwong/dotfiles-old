@@ -21,7 +21,7 @@ Important stuff kept in [.aliases](.aliases)
  - OR use [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) because it's less of a pain in the ass
 
 - If vim is missing clipboard support (if `vim --version` shows `-clipboard`):
- - `brew install macvim --with-override-system-vim`
+ - `brew install macvim --with-override-system-vim --with-python3`
  - `alias vim='mvim -v'`
 
 
