@@ -18,7 +18,8 @@ Important stuff kept in [.aliases](.aliases)
 - [Vimrc](https://github.com/amix/vimrc)
 - [CommandT](https://github.com/wincent/command-t)
  - check vim ruby version and set before installing!
- - OR use [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) because it's less of a pain in the ass
+ - **OR use [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) because it's less of a pain in the ass to set up
+- [YouCompleteMe](http://www.alexeyshmalko.com/2014/youcompleteme-ultimate-autocomplete-plugin-for-vim/) - Autocomplete for vim
 
 - If vim is missing clipboard support (if `vim --version` shows `-clipboard`):
  - `brew install macvim --with-override-system-vim --with-python3`
