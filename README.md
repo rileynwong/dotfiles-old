@@ -88,6 +88,9 @@ map <space> ,
 " Select all text in buffer
 map <Leader>a ggVG
 
+" Insert newline without going into insert mode
+nnoremap <Enter> o<Esc>
+
 " Set iTerm tab title to filename when vim is open
 autocmd BufEnter * let &titlestring = expand("%:t")
 set title
