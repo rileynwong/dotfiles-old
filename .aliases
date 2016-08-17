@@ -40,6 +40,7 @@ alias ga="git add"
 alias gc="git commit -m"
 alias gl="git log -n 10 --oneline"
 alias gdlc="git diff HEAD~ HEAD"  # view last commit diff
+alias gitclean='git checkout -- .'
 
 alias gph="git push heroku master"
 alias gphm="git push origin master && git push heroku master"
