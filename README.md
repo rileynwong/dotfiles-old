@@ -16,6 +16,7 @@ Important stuff kept in [.aliases](.aliases)
 
 ###### vim
 - [Vimrc](https://github.com/amix/vimrc)
+- [gruvbox vim color scheme](https://github.com/morhetz/gruvbox)
 - [CommandT](https://github.com/wincent/command-t)
  - check vim ruby version and set before installing!
  - **OR use [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) because it's less of a pain in the ass to set up
